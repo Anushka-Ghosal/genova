@@ -140,15 +140,15 @@ For optional features configuration (Redis, SearXNG, etc.), see [CONFIGURATION.m
 Prebuilt Docker images are available on GitHub Container Registry:
 
 ```bash
-docker pull ghcr.io/miurla/morphic:latest
+docker pull ghcr.io/miurla/genova:latest
 ```
 
 You can use it with docker-compose:
 
 ```yaml
 services:
-  morphic:
-    image: ghcr.io/miurla/morphic:latest
+  genova:
+    image: ghcr.io/miurla/genova:latest
     env_file: .env.local
     ports:
       - '3000:3000'
@@ -162,7 +162,7 @@ The default model configuration is located at `public/config/models.json`. For D
 
 ### Setting up the Search Engine in Your Browser
 
-If you want to use Morphic as a search engine in your browser, follow these steps:
+If you want to use genova as a search engine in your browser, follow these steps:
 
 1. Open your browser settings.
 2. Navigate to the search engine settings section.
@@ -175,7 +175,7 @@ If you want to use Morphic as a search engine in your browser, follow these step
 6. Click "Add" to save the new search engine.
 7. Find "GENOVA" in the list of site search, click on the three dots next to it, and select "Make default".
 
-This will allow you to use Morphic as your default search engine in the browser.
+This will allow you to use Mgenova as your default search engine in the browser.
 
 
 
