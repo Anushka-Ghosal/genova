@@ -108,13 +108,13 @@ Models are configured in `public/config/models.json`. Each model requires its co
 Fork the repo to your Github account, then run the following command to clone the repo:
 
 ```bash
-git clone git@github.com:[YOUR_GITHUB_ACCOUNT]/morphic.git
+git clone git@github.com:[YOUR_GITHUB_ACCOUNT]/genova.git
 ```
 
 ### 2. Install dependencies
 
 ```bash
-cd morphic
+cd genova
 bun install
 ```
 
@@ -133,23 +133,6 @@ TAVILY_API_KEY=     # Get from https://app.tavily.com/home
 ```
 
 For optional features configuration (Redis, SearXNG, etc.), see [CONFIGURATION.md](./docs/CONFIGURATION.md)
-
-### 4. Run app locally
-
-#### Using Bun
-
-```bash
-bun dev
-```
-
-#### Using Docker
-
-```bash
-docker compose up -d
-```
-
-Visit http://localhost:3000 in your browser.
-
 
 
 ### Docker Prebuilt Image
