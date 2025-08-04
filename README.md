@@ -213,7 +213,7 @@ This project is proudly supported by:
 
 ## 👥 Contributing
 
-We welcome contributions to Morphic! Whether it's bug reports, feature requests, or pull requests, all contributions are appreciated.
+We welcome contributions to GENOVA! Whether it's bug reports, feature requests, or pull requests, all contributions are appreciated.
 
 Please see our [Contributing Guide](CONTRIBUTING.md) for details on:
 
