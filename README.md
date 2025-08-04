@@ -2,7 +2,7 @@
 
 An AI-powered search engine with a generative UI.
 
-![capture](/public/screenshot-2025-05-04.png)
+
 
 ## 🗂️ Overview
 
